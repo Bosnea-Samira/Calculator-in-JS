@@ -21,7 +21,7 @@ body{
 
 .calculator-grid > button{
     cursor: pointer;
-    font-size:32px;
+    font-size:2rem;
     border: 1px white solid;
     background-color: #caf0f8;
 }
@@ -35,7 +35,24 @@ body{
 }
 
 .output{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
     grid-column: 1 / -1;   
     background-color: #457b9d;
+}
+
+.output .current-operand{
+    color: #adb5bd;
+    font-size:30px;
+}
+
+.output .previous-operand{
+    color: #f1faee;
+    font-size:24px;
 }
 
