@@ -5,8 +5,8 @@
 }
 
 body{
-    padding: 0;
-    margin: 0;
+    padding: 5px;
+    margin: 10px;
     background-color: #14213d;
 }
 
@@ -44,10 +44,12 @@ body{
     word-break: break-all;
     grid-column: 1 / -1;   
     background-color: #457b9d;
+    border-radius: 2px;
+    border: white 1px solid;
 }
 
 .output .current-operand{
-    color: #adb5bd;
+    color: #ffffff;
     font-size:30px;
 }
 
